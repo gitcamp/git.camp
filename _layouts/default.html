@@ -2,15 +2,20 @@
 <html>
 
   <head>
+    <link href='http://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
     <link rel='stylesheet' href='/css/main.css'>
     <meta charset='utf8'>
   </head>
 
   <body>
     <header>
-      <div class='bottom'>
-	<a href='/'><br>git.<br>camp</a>
-      </div>
+      <a href='/'>git.<br>camp</a>
+      <ul>
+        <li><a href='/'>Home</a></li>
+        <li><a href='/about/'>About</a></li>
+        <li><a href='/feed.xml'>RSS</a></li>
+        <li><a href='https://github.com/jshawl/git.camp'>View Source</a></li>
+      </ul>
     </header>
     <section role="main">
         {{ content }}

@@ -9,37 +9,121 @@ body, html{
   height:100%;
   position:relative;
   margin:0;
+  max-width:60em;
+  font-family: Inconsolata;
+  line-height:1.5;
 }
 
 header{
   position:fixed;
   height:100%;
   width:25%;
+  max-width:15em;
   top:0;
   left:0;
+  padding:2em;
   background:#DC322E;
-  &, & > .bottom{
-    padding:1em;
+}
+
+
+header ul{
+  list-style:none;
+  padding:1em;
+  margin:0;
+  li{
+    position:relative;
+    line-height:2.5em;
+    a{
+      color:#fff;
+      text-decoration:none;
+    }
+    &:nth-child(3){
+      margin-left:1.5em;
+    }
+    &:before, &:after{
+      content:' ';
+      display:block;
+      position:absolute;
+    }
+    &:before{
+      height:5px;
+      width:5px;
+      border:4px solid #fff;
+      left:-20px;
+      top:50%;
+      transform:translateY(-50%);
+      border-radius:100%;
+    }
+    &:nth-child(1):after{
+      height:1.25em;
+      width:5px;
+      background:#fff;
+      top:75%;
+      left:-16px;
+    }
+    &:nth-child(2):after{
+      height:3.75em;
+      width:5px;
+      background:#fff;
+      top:75%;
+      left:-16px;
+    }
+    &:nth-child(3):after{
+      height:1.75em;
+      transform:rotate(40deg);
+      transform-origin:0 0;
+      width:5px;
+      background:#fff;
+      top:65%;
+      left:-22px;
+    }
   }
 }
 
-.bottom{
-  position:absolute;
-  width:100%;
-  left:0;
-  bottom:0;
-  a{
+  header > a{
     color: #fff;
     font-size:4em;
     text-decoration:none;
-    font-family:monospace;
     font-weight:bold;
     display:block;
     line-height:1;
   }
-}
 
 [role="main"]{
   padding:2em;
   margin-left:25%;
+}
+
+.title{
+  .index{
+    font-size:2em;
+    float:left;
+    border-right:2px solid #ddd;
+    color: #ccc;
+    width:1.5em;
+    text-align:center;
+    margin-top:.25em;
+    margin-right:.75em;
+  }
+  h2{
+    margin:0;
+    a{
+      display:block;
+      color:inherit;
+      text-decoration:none;
+    }
+  }
+}
+
+@media all and (max-width:40em){
+  header{
+    position:relative;
+    width:100%;
+    height:auto;
+    max-width:100%;
+  }
+  [role="main"]{
+    width:100%;
+    margin:0;
+  }
 }
