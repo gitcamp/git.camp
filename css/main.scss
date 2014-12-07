@@ -52,6 +52,7 @@ header ul{
       left:-20px;
       top:50%;
       transform:translateY(-50%);
+      -webkit-transform:translateY(-50%);
       border-radius:100%;
     }
     &:nth-child(1):after{
@@ -71,7 +72,9 @@ header ul{
     &:nth-child(3):after{
       height:1.75em;
       transform:rotate(40deg);
+      -webkit-transform:rotate(40deg);
       transform-origin:0 0;
+      -webkit-transform-origin:0 0;
       width:5px;
       background:#fff;
       top:65%;
