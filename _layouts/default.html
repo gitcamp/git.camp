@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+  <head>
+    <link rel='stylesheet' href='/css/main.css'>
+    <meta charset='utf8'>
+  </head>
 
   <body>
-
-    {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
+    <header>
+      <div class='bottom'>
+	<a href='/'><br>git.<br>camp</a>
       </div>
-    </div>
-
-    {% include footer.html %}
-
+    </header>
+    <section role="main">
+        {{ content }}
+    </section>
   </body>
 
 </html>
