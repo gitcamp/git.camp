@@ -12,4 +12,5 @@ self-hosted git server.
 ### Useful && Related
 
 - [How to set up ssh keys](https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys--2)
+- [Digital Ocean](http://jshawl.com/do)
 
