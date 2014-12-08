@@ -10,7 +10,7 @@ Git camp is a collection of low-budget and low production quality videos aimed
 at helping you up your git skills.
 
 The knowledge and experience contained on this site is the result of *countless*
-hours googling error messages mysterious outputs at the terminal prompt.
+hours googling error messages and mysterious outputs at the terminal prompt.
 
 Have something you want to learn more about? Confused about a particular
 git-related topic? [Open an Issue](https://github.com/jshawl/git.camp/issues/new?title=post+idea) and tell
