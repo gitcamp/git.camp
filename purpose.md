@@ -16,4 +16,4 @@ Have something you want to learn more about? Confused about a particular
 git-related topic? [Open an Issue](https://github.com/jshawl/git.camp/issues/new?title=post+idea) and tell
 me about it.
 
-Want to change something about this site or edit one of the posts? [Fork it](https://github.com/jshawl/git.camp)!
+Want to change something about this site or edit one of the posts? [Fork it](https://github.com/gitcamp/git.camp)!
