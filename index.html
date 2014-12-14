@@ -4,7 +4,7 @@ layout: default
 ---
 
 {% for post in site.posts %}
-  <article>
+  <article class='home'>
     <div class='title'>
       <div class='index'>{{ post.index }}</div>
       <h2> <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">  {{ post.title }}</a> </h2>
