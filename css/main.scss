@@ -23,6 +23,7 @@ header{
   left:0;
   padding:2em;
   background:#DC322E;
+  border-right:10px solid darken(#DC322E, 10%);
 }
 
 
@@ -87,6 +88,7 @@ header ul{
     color: #fff;
     font-size:4em;
     text-decoration:none;
+    text-shadow:2px -3px 0px darken(#F54D27, 20%);
     font-weight:bold;
     display:block;
     line-height:1;
@@ -152,6 +154,8 @@ header ul{
   }
   header > ul {
     padding-top:0;
+    transform:scale(.8);
+    transform-origin: 0 0;
     -webkit-transform:scale(.8);
     -webkit-transform-origin: 0 0;
   }
