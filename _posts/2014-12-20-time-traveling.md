@@ -9,6 +9,8 @@ contents at different points in time.
 
 <iframe src="//player.vimeo.com/video/115069762?title=0&byline=0&portrait=0" width="100%" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/115069762">02 - Time Traveling with git</a> from <a href="http://vimeo.com/user34026330">Jesse Shawl</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
+Want to follow along with the same repo? [fork it on github](https://github.com/gitcamp/02-time-traveling).
+
 ### Or, view the text version
 
 Being able to navigate the history of your repository first requires
