@@ -1,6 +1,6 @@
 ---
 layout: post
-index: 1
+index: 2
 title: "Time Traveling with git checkout"
 ---
 
